@@ -1,14 +1,22 @@
 package com.example.raisemewell;
 
-import java.util.List;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class ManageBehaviorDisplay {
-    public goodBehavior () {
-        println.("Good Behavoir");
-        println.();
+public class ManageBehaviorDisplay extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_manage_behavior_display);
     }
-    public badBehavior () {
-        println.("Bad Behavior");
-        println.();
-    }
+
+    //    public goodBehavior () {
+//        println.("Good Behavoir");
+//        println.();
+//    }
+//    public badBehavior () {
+//        println.("Bad Behavior");
+//        println.();
+//    }
 }
