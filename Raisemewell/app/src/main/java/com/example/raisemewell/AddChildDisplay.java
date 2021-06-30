@@ -10,4 +10,11 @@ public class AddChildDisplay extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_child_display);
     }
+
+    //protected void addName() {childname = insert();}
+
+    //protected void adjustReward() {}
+
+    //private string childName;
+
 }
