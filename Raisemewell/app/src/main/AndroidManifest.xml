@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Raisemewell">
-        <activity android:name=".AddChildDisplay"></activity>
+        <activity android:name=".AddBehaviorDisplay"></activity>
+        <activity android:name=".AddChildDisplay" />
         <activity android:name=".ManageChildDisplay" />
         <activity android:name=".ChildDetails" />
         <activity android:name=".ManageBehaviorDisplay" />
