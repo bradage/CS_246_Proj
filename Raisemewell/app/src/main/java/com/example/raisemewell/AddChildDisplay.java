@@ -11,14 +11,19 @@ public class AddChildDisplay extends AppCompatActivity {
         setContentView(R.layout.activity_add_child_display);
     }
 
-    //protected void addName() {childname = insert();}
+    protected void addName() {childname = insert();}
 
-    //protected void adjustReward() {
-    //   rewardName = insert();
-    //   rewardValue = insert();
-    // }
+    protected void addReward() {
+       rewardName = insert();
+       rewardValue = insert();
+     }
 
-    //private string childName;
-    //privite string rewardName;
-    //private int rewardValue;
+    protected void removeReward() {
+        rewardName = delete();
+        rewardName = delete();
+     }
+
+    private string childName;
+    private string rewardName;
+    private int rewardValue;
 }
