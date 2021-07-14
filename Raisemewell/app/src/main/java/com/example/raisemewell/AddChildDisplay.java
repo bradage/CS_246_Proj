@@ -18,6 +18,11 @@ public class AddChildDisplay extends AppCompatActivity {
        rewardValue = insert();
      }
 
+    protected void removeReward() {
+        rewardName = delete();
+        rewardName = delete();
+     }
+
     private string childName;
     private string rewardName;
     private int rewardValue;
