@@ -14,10 +14,10 @@ public class ManageDisplay extends AppCompatActivity {
     }
 
     /**Called when the user taps the Manage Kids*/
-//    public void manageKids(View view) {
-//        Intent intent = new Intent(this, ManageKids.class);
-//        startActivity(intent);
-//    }
+    public void manageKids(View view) {
+        Intent intent = new Intent(this, ManageChildDisplay.class);
+        startActivity(intent);
+    }
 
     /**Called when the user taps the Manage Behaviors*/
     public void manageBehaviors(View view) {
