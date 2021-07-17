@@ -7,6 +7,10 @@ import android.view.View;
 
 public class ManageChildDisplay extends AppCompatActivity {
 
+    private string _childName;
+    private string _rewardName;
+    private int _rewardValue;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +27,7 @@ public class ManageChildDisplay extends AppCompatActivity {
 //        AlertDialog.Builder builder = new AlertDialog.Builder(this);
 //        builder.setTitle("Add New Child");
 //        // Set up the input
-//        final EditText childNameInput = new EditText(this);
+//        final EditText _childNameInput = new EditText(this);
 //// Specify the type of input expected; this, for example, sets the input as a password, and will mask the text
 //        childNameInput.setHint("Enter Child Name");
 //        childNameInput.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_NORMAL);
