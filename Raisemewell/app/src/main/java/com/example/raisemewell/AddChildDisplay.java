@@ -12,17 +12,21 @@ public class AddChildDisplay extends AppCompatActivity {
     }
 
 //    protected void addName() {childname = insert();}
-//
-//    protected void addReward() {
-//       rewardName = insert();
-//       rewardValue = insert();
-//     }
-//
+
+//   protected void addReward() {
+//      rewardName = insert();
+//      rewardValue = insert();
+//    }
+
+//   protected void removeChild() {
+//       childName = delete();
+//   }
+
 //    protected void removeReward() {
 //        rewardName = delete();
 //        rewardName = delete();
 //     }
-//
+
 //    private string childName;
 //    private string rewardName;
 //    private int rewardValue;
